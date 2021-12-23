@@ -1,0 +1,6 @@
+server:
+  port: 9296
+  
+spring:  application:    name: CONFIG-SERVER
+  cloud:    config:      server:        git:          uri: https://github.com/dheeraj6898/insurance-config-server-1
+          clone-on-start: true    
